@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "GymAdminApp",
+    "slug": "GymAdminApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "GymAdminApp"
+}
