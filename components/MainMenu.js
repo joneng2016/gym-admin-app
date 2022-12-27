@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
   },
 
   accessTrainAccessTrain: {
-    marginLeft:'15px',
+    marginLeft:'16px',
     color:"#ffff"
   }
 });
