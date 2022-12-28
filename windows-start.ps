@@ -1,0 +1,7 @@
+docker run -p 3305:3306 -v /mnt/c/projects/ensino/administracao_banco_de_dados/db/db:/etc/mysql/conf.d -e MYSQL_ROOT_PASSWORD=root classdb;
+
+docker run -p 8081:8081 -v C:\projects\gym-admin-app:/projects -it bash gymadminapp;
+
+docker run -p 8081:8081 gymadminapp;
+
+docker run -p 8081:8081 -v C:\projects\gym-admin-app:/projects -t -i gymadminapp bash;

@@ -9,7 +9,7 @@ const MainMenu = () => {
   }
 
   const accessTrain = () => {
-    console.log('access train')
+    console.log('acceswwww train')
   }
 
   return (
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
   },
 
   accessTrainAccessTrain: {
-    marginLeft:'16px',
+    marginLeft:'15px',
     color:"#ffff"
   }
 });
