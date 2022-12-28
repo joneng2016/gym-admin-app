@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/dev-server": "^0.1.123",
     "@expo/webpack-config": "^0.17.0",
     "expo": "~46.0.13",
     "expo-splash-screen": "~0.16.2",
@@ -20,7 +21,9 @@
     "react-native-web": "~0.18.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "webpack-dev-middleware": "^6.0.1",
+    "webpack-hot-middleware": "^2.25.3"
   },
   "private": true
 }
