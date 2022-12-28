@@ -1,2 +1,3 @@
 echo 'build image';
 docker build -t gymadminapp .;
+docker run -p 8081:8081 -v C:\projects\gym-admin-app:/projects -t -i gymadminapp cd /projects; npm install --save-dev webpack-dev-middleware webpack-hot-middleware; npm install; npm run start;
