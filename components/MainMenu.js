@@ -1,39 +1,30 @@
 import * as React from 'react';
 import { StyleSheet, View, Text, Dimensions } from 'react-native';
 
-const MainMenu = () => {
-  var [isNewMenuActive, setIsNewMenuActive] = React.useState(false)
-
-  const newTrain = () => {
-    setIsNewMenuActive(true)
+class MainMenu extends React.Component {
+  constructor (props) {
+    super(props);
+    this.state = {
+      isNewMenuActive: false
+    }
   }
 
-  const accessTrain = () => {
-    console.log('acceswwww train')
-  }
-
-  return (
-    <View>
-      <Text
-        style={styles.generalMenuStructure}>
-
+  render() {
+    return (<View>
+      <Text style={styles.generalMenuStructure}>
           <Text
-            style= {isNewMenuActive ? styles.accessMenuNewTrainDesactive:styles.accessMenuNewTrainActive }
-            onPress={newTrain}
           >
               Cadastrar
           </Text>
 
           <Text
-            style= {styles.accessTrainAccessTrain}
-            onPress={accessTrain}
           >
               Acesssar
           </Text>
       </Text>
-    </View>
-  );
-};
+    </View>)
+  }
+}
 
 const styles = StyleSheet.create({
   generalMenuStructure: {
