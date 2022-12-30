@@ -19,7 +19,6 @@ const MainMenu = () => {
 
           <Text
             style= {isNewMenuActive ? styles.accessMenuNewTrainDesactive:styles.accessMenuNewTrainActive }
-
             onPress={newTrain}
           >
               Cadastrar
@@ -27,7 +26,6 @@ const MainMenu = () => {
 
           <Text
             style= {styles.accessTrainAccessTrain}
-
             onPress={accessTrain}
           >
               Acesssar
